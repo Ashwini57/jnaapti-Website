@@ -371,7 +371,10 @@ h8 {
 .carousel-indicators .active {
   background-color: Black;
 }
-
+.testimonial
+{
+  width:80%;
+}
 /*end of section 6*/
 
 /*start of section 7*/
