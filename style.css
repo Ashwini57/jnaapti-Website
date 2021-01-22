@@ -7,7 +7,6 @@ html {
 }
 #banner {
   background: url("Images/Book\ and\ Nature.jpg") no-repeat fixed right top;
-  -webkit-background-size: cover;
   background-image: linear-gradient(
       rgba(44, 41, 1, 0.438),
       rgba(11, 22, 1, 0.918)
@@ -17,6 +16,7 @@ html {
   z-index: -1;
   height: 100%;
   margin-bottom: 60px;
+  -webkit-background-size: cover;
 }
 .logo {
   width: 80px;
@@ -128,20 +128,19 @@ nav ul li a:hover {
   width: 30px;
   margin-top: 5px;
 }
-
 .typewriter1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* border-right: 0.15em solid orange; The typwriter cursor */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: 0.15em; 
   animation: typing 4s steps(40, end);
   font-size: 2vw;
 }
 .typewriter2 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /*border-right: 0.15em solid orange; /* The typwriter cursor */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: 0.15em; 
   animation: typing2 8s steps(40, end);
   font-size: 2vw;
 }
@@ -153,7 +152,6 @@ nav ul li a:hover {
     width: 100%;
   }
 }
-
 @keyframes typing2 {
   0% {
     width: 0;
@@ -257,7 +255,6 @@ h8 {
 #fluid1 {
   padding: 5% 2%;
 }
-
 .section-title {
   font-family: Roboto Condensed;
   font-size: 40px;
@@ -267,7 +264,6 @@ h8 {
   text-shadow: 1px 3px 4px rgb(32, 28, 23);
   text-align: center;
 }
-
 .flip-card {
   background-color: transparent;
   width: 100%;
@@ -338,7 +334,6 @@ h8 {
 #test {
   font: 20px;
 }
-
 @media (max-width: 768px) {
   #test {
     font-size: 16px;
@@ -347,16 +342,13 @@ h8 {
 #carousel {
   text-shadow: 1px 3px 4px rgb(59, 35, 5);
   font-family: Roboto Condensed;
-  text-align: center;
-  
+  text-align: center; 
 }
-
 .carousel-control.left,
 .carousel-control.right {
   background-image: none;
   color: black;
 }
-
 .carousel,
 .carousel-inner {
   position: relative;
@@ -364,7 +356,6 @@ h8 {
 .carousel-caption {
   color: rgb(0, 0, 0);
 }
-
 .carousel-indicators li {
   background-color: black;
 }
@@ -385,8 +376,7 @@ footer {
 .bg {
   background-image: linear-gradient(
       rgba(44, 41, 1, 0.438),
-      rgba(11, 22, 1, 0.918)
-    ),
+      rgba(11, 22, 1, 0.918)),
     url(images/plant.jpg);
   width: 100%;
   height: 100%;
@@ -396,7 +386,6 @@ footer {
   background-size: cover;
   font-size: medium;
 }
-
 .footer a {
   text-decoration: none;
   color: white;
@@ -425,8 +414,10 @@ footer {
   font-size: medium;
   margin-top: 2%;
 }
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 5px;
+  background-color: transparent;
+}
 /*end of section 7*/
-
-/* linear-gradient(
-      rgba(75, 70, 1, 0.438),
-      rgba(21, 44, 2, 0.918) */
