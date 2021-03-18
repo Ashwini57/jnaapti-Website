@@ -196,14 +196,7 @@ width: 100%;
 {
   margin-top: 30px;
 }
-/* #page-section
-{
-  background-color: rgb(248, 248, 248);
-} */
-/* #feature-section
-{
-  background-color: rgb(246, 248, 250);
-} */
+
 #heading {
   text-align: center;
   font-size: 45px;
@@ -229,10 +222,6 @@ width: 100%;
 #fluid {
   padding-left: 100px;
   padding-right: 100px;
-/*   
-  background-image:url("images/bluefeature1.png") ;
-  background-size: 100%;
-  background-repeat: no-repeat; */
 }
 .features {
   text-shadow: 1px 2px 3px rgb(46, 58, 85);
@@ -244,7 +233,6 @@ width: 100%;
 }
 .feature-heading
 {
-  
   font-size: 21px;
 }
 .feature-content
@@ -308,6 +296,129 @@ margin-top: 110px;
   text-decoration: none;
   color: white;
 }
+
+#clientfluid
+{
+  width:100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: 'Dosis', sans-serif;
+}
+.client-wrap h6
+{
+font-size: 70px;
+}
+.client-wrap
+{
+  width: 90%;
+  height: auto;
+  text-align: center;
+}
+.client-section
+{
+  width:100%;
+  height:auto;
+}
+
+.client-section ul
+{
+  padding: 0;
+  margin: 0;
+}
+.client-section ul li
+{
+  width: 150px;
+  height: 100px;
+  cursor: pointer;
+  display: inline-block;
+overflow: hidden;
+}
+.client-section ul li img
+ {
+filter: grayscale(100%);
+}
+.client-section ul li img:hover
+{
+  filter: grayscale(0%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /* .image {
+  filter:grayscale(100%);
+}
+
+.image:hover {
+  filter:grayscale(0%);
+}
+ */
+
+/* .client-wrap img
+{
+align-items: center;
+width: fit-content;
+padding: 20px;
+margin-left: 100px;
+} */ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
