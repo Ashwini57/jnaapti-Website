@@ -50,30 +50,36 @@ nav ul li a:hover {
 }
 #menuBtn
 {
-  text-align: center;
-  position: fixed;
-  z-index: 3;
-  cursor: pointer;
-  right:4px;
+    background-size: contain;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+    cursor: pointer;
+    right: 4px;
+    /* width: 20vw;
+    height: 20vw; */
+    width: 4.8vw;
+    height: 4.1vw;
+    background-image: url(images/VCmenuside.png);
 }
 #menu
 {
   z-index: 4;
+  width: 50%;
+  height: 50%;
+  margin-top: 10px;
 }
-.menuside
+/* .menuside
 {
   position: absolute;
   top: 0px;
   right:0px;
-  z-index: -1x;
+  z-index: -1;
   width: 4.5vw;
   height: 4vw;
-}
-#menuBtn img {
-  width: 2.1vw;
-  height: 2.1vw;  
-  margin-top: 10px;
-}
+  
+} */
+
 .title
 {
 text-align: center;
@@ -108,26 +114,32 @@ z-index: 2;
 margin-left: -70px;
 width:30vh;
 }
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .sidecircle{
     top: 20%;
-  }
-}
+  } */
+
 #VChero {
-  background-image: url("images/vcvc1.png");
+  
   width: 100%;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 21%;
 }
-@media screen and (max-width: 600px) {
-  .hero-image{
-    width: 100%;
-    background-image: url("images/vcheader3.png");
-    margin-top:1%;
-  }
+#vchero1
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
+
+
+
+
+
+
 .hero-text {
   text-align: center;
   position: absolute;
@@ -254,7 +266,7 @@ transition: all 0.3s ease-in-out;
   margin-top: 110px;
 }
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 600px)
 {
 #contactus {
     height: auto;
@@ -285,7 +297,7 @@ transition: all 0.3s ease-in-out;
 #contactus2 
 {
   justify-content: center;
-  margin-top: 1em;
+  /* margin-top: 1em; */
   text-align: center;
 }
 .send-email-btn {
@@ -484,19 +496,42 @@ transition: all 0.3s ease-in-out;
   right: 5px;
   background-color: transparent;
 }
+.ourcourses-title
+{
+  text-align: center;
+  font-size: 45px;
+  color: black;
+  margin-bottom: 1rem;
+  margin-top: 9rem;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 3px rgb(46, 58, 85);
+  font-weight: 500;
+  padding-top: 40px;  
+  line-height: 1.3;
+}
+#courses
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+@media screen and (max-width: 600px) {
+  #vchero1{
+    width: 100%;
+    margin-top:80%;
+  }
+  .hero-text h2,.hero-text h3, .hero-text h4
+  {
+font-size: 4.5vw;  
+  }
+  .virtual2{
+    display: none;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 
 
